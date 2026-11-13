@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member Dashboard | Digital Ekub</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <main class="member-dashboard">
+
+        <header class="dashboard-header">
+            <a href="../index.html" class="register-brand">
+                <span class="brand-icon">E</span>
+                <span>DIGITAL <strong>EKUB</strong></span>
+            </a>
+
+            <button id="logoutButton" class="logout-button">
+                Sign out
+            </button>
+        </header>
+
+        <section class="dashboard-content">
+
+            <div class="dashboard-welcome">
+                <div>
+                    <p class="welcome-label">MEMBER OVERVIEW</p>
+                    <h1>Welcome, <span id="memberName">Member</span>.</h1>
+                    <p>Your community savings journey starts here.</p>
+                </div>
+
+                <div class="member-avatar" id="memberInitial">M</div>
+            </div>
+
+            <section class="dashboard-summary">
+                <div class="summary-card">
+                    <p>Membership status</p>
+                    <h2>Registered</h2>
+                    <span class="status-indicator">● Active demo profile</span>
+                </div>
+
+                <div class="summary-card">
+                    <p>Member email</p>
+                    <h2 class="member-detail" id="memberEmail">Not available</h2>
+                    <span>Account information</span>
+                </div>
+
+                <div class="summary-card">
+                    <p>Phone number</p>
+                    <h2 class="member-detail" id="memberPhone">Not available</h2>
+                    <span>Contact information</span>
+                </div>
+            </section>
+
+            <section class="dashboard-panel">
+                <div>
+                    <p class="welcome-label">YOUR NEXT STEP</p>
+                    <h2>Explore your Ekub community.</h2>
+                    <p>
+                        Your dashboard will eventually help you manage
+                        savings groups, track contributions and view
+                        payout information.
+                    </p>
+                </div>
+
+                <div class="dashboard-placeholder">
+                    <span>EKUB</span>
+                    <p>Save together. Grow together.</p>
+                </div>
+            </section>
+
+            <p class="demo-notice">
+                This is a frontend demonstration. Real membership
+                and financial information will be connected to the
+                backend later.
+            </p>
+
+        </section>
+    </main>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
